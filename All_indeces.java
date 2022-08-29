@@ -2,7 +2,7 @@ public class All_indeces {
 
     public static int[] Sol(int[] arr, int i, int n, int j){
         if(i==arr.length){
-            return new int[j];
+            return new int[j]; //this is going to return new array of size j;
         }
 
         int[] arr_fin;
