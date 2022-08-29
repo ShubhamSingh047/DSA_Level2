@@ -7,7 +7,7 @@ public class All_indeces {
 
         int[] arr_fin;
         if(arr[i]==n){
-            arr_fin = Sol(arr, i + 1, n, j + 1);
+            arr_fin=Sol(arr, i + 1, n, j + 1);
             arr_fin[j]=i;
         }else{
             arr_fin = Sol(arr, i + 1, n, j);
