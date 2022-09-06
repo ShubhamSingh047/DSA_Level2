@@ -22,7 +22,7 @@ public class checkSorted {
     }
 
     public static void main(String[] args) {
-        int arr[]=new int[]{7,2,3,4,5};
+        int arr[]=new int[]{1,2,7,4,5};
         boolean f_ans=sol(arr);
         System.out.println(f_ans);
     }
